@@ -451,6 +451,24 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#63-run-frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.3 Run Frontend:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-run-python-connection-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.4 Run Python Connection file:
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -707,6 +725,24 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#63-run-frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.3 Run Frontend:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-run-python-connection-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.4 Run Python Connection file:
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -770,6 +806,8 @@ It will include the installation of the operrating system, correct drivers, deve
 <li><a href="#6-application-installation">6. Application installation</a><ul>
 <li><a href="#61-copy-the-repository-zip">6.1 Copy the Repository Zip:</a></li>
 <li><a href="#62-install-dependencies">6.2 Install Dependencies:</a></li>
+<li><a href="#63-run-frontend">6.3 Run Frontend:</a></li>
+<li><a href="#64-run-python-connection-file">6.4 Run Python Connection file:</a></li>
 </ul>
 </li>
 </ul>
@@ -950,6 +988,19 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
 <p>Run the following commands in the same terminal to install the necessary packages:
     <div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>reqirements.txt
 </code></pre></div></p>
+<h4 id="63-run-frontend">6.3 Run Frontend:<a class="headerlink" href="#63-run-frontend" title="Permanent link">#</a></h4>
+<div class="highlight"><pre><span></span><code>To run the frontend open the idp-frontend directory and run the frontend file in bash:
+```bash
+cd IDP/jsw-frontend/idp-frontend
+npm run dev
+```
+</code></pre></div>
+<h4 id="64-run-python-connection-file">6.4 Run Python Connection file:<a class="headerlink" href="#64-run-python-connection-file" title="Permanent link">#</a></h4>
+<div class="highlight"><pre><span></span><code>To start the connection between frontend and backend run the connection.py file:
+```bash
+python3 IDP/infrastructure/message_queue/connection.py
+```
+</code></pre></div>
 
 
 
